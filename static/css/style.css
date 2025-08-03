@@ -1,0 +1,349 @@
+:root{
+    --main-bg: #111827;
+    --card-bg: #11192A;
+    --card-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    --border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body{
+    background-color: var(--main-bg);
+    color: white;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    width: 100%;
+    height: 120px;
+    box-shadow: var(--card-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    gap: 60px;
+}
+
+.logo-container{
+    width: 100px;
+    height: 100px;
+    background-color: #4053CA;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 107px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: medium;
+    transition: transform 0.3s ease;
+}
+.link:hover {
+    transform: scale(1.10);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    height: 660px;
+}
+
+.right-img{
+    width: 412px;
+    height: 417px;
+}
+
+.left-card{
+    width: 667px;
+    height: 417px;
+    border: var(--border);
+    box-shadow: var(--card-shadow);
+    border-radius: 52px;
+    padding-left: 40px;
+    padding-top: 59px;
+    background-color: #11192A;
+}
+
+h1, h3, p, h5{
+    margin: 0;
+}
+
+.developer{
+    font-size: 20px;
+    font-weight: 300;
+}
+.Hello-name{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.name{
+    color: #3A96FF;
+    font-weight: 900;
+}
+
+.paragraph{
+    width: 441px;
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+
+.left-card-icons{
+    display: flex;
+    gap: 19px;
+}
+
+.icon-container{
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; 
+}
+
+.icon-container:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+.second-section{
+    width: 100%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-card{
+    height: 410px;
+    width: 926px;
+    box-shadow: var(--card-shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 41px;
+}
+
+.about-me{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.about-me-text{
+    width: 864px;
+    height: 190px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.third-section{
+    width: 100%;
+    height: 271px;
+    margin-top: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-card{
+    width: 853px;
+    border-radius: 41px;
+    height: 271px;
+    box-shadow: var(--card-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 19px;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 159px;
+    background-color: #1f2937;
+    height: 35px;
+}
+
+.css-wrapper{
+    width: 110px;
+}
+
+.html-wrapper{
+    width: 110px;
+}
+
+.js-wrapper{
+    width: 151px;
+}
+
+.React-wrapper{
+    width: 110px;
+}
+
+.Tailwind-wrapper{
+    width: 165px;
+}
+
+.my-skills-tittle{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.fourth-container{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    margin-bottom: 240px;
+}
+
+.contact-card{
+    width: 828px;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-containers{
+    display: flex;
+    gap: 114px;
+}
+
+.card-wrap{
+    background-color: var(--card-bg);
+    border: var(--border);
+    border-radius: 21px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    transition: transform 0.3s ease; 
+}
+
+.card-wrap:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+.contact-tittle{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.company-img-container{
+    width: 40px;
+    height: 40px;
+    background-color: #1C2E44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    margin-bottom: 4px;
+}
+
+.company-name{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+
+.address{
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fifth-section{
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 36px;
+    
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rights{
+    margin-bottom: 27px;
+}
+
+.foot-mini-container{
+    display: flex;
+    gap: 51px;
+    width: 261px;
+    justify-content: space-between;
+}
+
+h5{
+    color: #ACACAC;
+    font-weight: 400;
+    font-size: 14px;
+    transition: transform 0.3s ease; 
+}
+
+.h5:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 764px) {
+    .first-section{
+        flex-direction: column;
+        gap: 100px;
+        margin-top: 180px;
+        margin-bottom: 100px;
+    }
+}
